@@ -33,7 +33,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-	baseURL: process.env.BASE_URL || 'https://fakerestapi.azurewebsites.net',
+	  baseURL: process.env.BASE_URL ?? 'https://fakerestapi.azurewebsites.net',
 
     extraHTTPHeaders: {
       'Content-Type': 'application/json',
