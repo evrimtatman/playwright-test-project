@@ -61,7 +61,7 @@ It covers the main `Books and Authors` endpoints with both happy path and edge c
 
 Envirionment Setup
 ----------------------------------
-Create a .env fike in root directort:
+Create a .env file in root directory:
 BASE_URL=https://fakerestapi.azurewebsites.net
 
 How to Run Tests
